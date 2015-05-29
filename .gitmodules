@@ -1,0 +1,3 @@
+[submodule "canvas-snake"]
+	path = canvas-snake
+	url = https://github.com/iceless58/canvas-snake
