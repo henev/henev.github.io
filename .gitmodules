@@ -1,3 +1,6 @@
 [submodule "canvas-snake"]
 	path = canvas-snake
 	url = https://github.com/iceless58/canvas-snake
+[submodule "canvas-tron"]
+	path = canvas-tron
+	url = https://github.com/iceless58/canvas-tron
