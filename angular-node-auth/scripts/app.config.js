@@ -35,12 +35,12 @@ angular.module('psJwtApp')
             });
 
         $authProvider.google({
-            clientId: '537402726188-mghte0unil0k58ubio7ruuo2me5b0a8l.apps.googleusercontent.com',
+            clientId: '537402726188-61j89725kj6j5t0n6km6kvrenekgmgo2.apps.googleusercontent.com',
             url: API_URL + 'auth/google'
         });
 
         $authProvider.facebook({
-            clientId: '1404274396568351',
+            clientId: '840358282720715',
             url: API_URL + 'auth/facebook'
         });
 
