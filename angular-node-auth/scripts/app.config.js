@@ -35,7 +35,7 @@ angular.module('psJwtApp')
             });
 
         $authProvider.google({
-            clientId: '537402726188-61j89725kj6j5t0n6km6kvrenekgmgo2.apps.googleusercontent.com',
+            clientId: '537402726188-cps7intsrkusstgudu3h7s7oflef7di5.apps.googleusercontent.com',
             url: API_URL + 'auth/google'
         });
 
