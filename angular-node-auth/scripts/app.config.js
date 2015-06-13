@@ -36,7 +36,8 @@ angular.module('psJwtApp')
 
         $authProvider.google({
             clientId: '537402726188-cps7intsrkusstgudu3h7s7oflef7di5.apps.googleusercontent.com',
-            url: API_URL + 'auth/google'
+            url: API_URL + 'auth/google',
+            redirectUri: '/angular-node-auth'
         });
 
         $authProvider.facebook({
