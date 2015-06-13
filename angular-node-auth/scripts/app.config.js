@@ -1,23 +1,25 @@
 angular.module('psJwtApp')
-    .config(function($urlRouterProvider, $stateProvider, $locationProvider, $httpProvider, $authProvider, API_URL) {
+    .config(function($urlRouterProvider, $stateProvider, $httpProvider, $authProvider, API_URL) {
 
         $urlRouterProvider.otherwise('/');
+
+        var sitePrefix = '/angular-node-auth';
 
         $stateProvider
             .state('main', {
                 url: '/',
-                templateUrl: '/views/main.html'
+                templateUrl: sitePrefix + '/views/main.html'
             })
 
             .state('register', {
                 url: '/register',
-                templateUrl: '/views/register.html',
+                templateUrl: sitePrefix + '/views/register.html',
                 controller: 'RegisterCtrl'
             })
 
             .state('login', {
                 url: '/login',
-                templateUrl: '/views/login.html',
+                templateUrl: sitePrefix + '/views/login.html',
                 controller: 'LoginCtrl'
             })
 
@@ -28,7 +30,7 @@ angular.module('psJwtApp')
 
             .state('jobs', {
                 url: '/jobs',
-                templateUrl: '/views/jobs.html',
+                templateUrl: sitePrefix + '/views/jobs.html',
                 controller: 'JobsCtrl'
             });
 
@@ -47,8 +49,6 @@ angular.module('psJwtApp')
         $authProvider.signupUrl = API_URL + 'auth/register';
 
         $httpProvider.interceptors.push('authInterceptor');
-
-        $locationProvider.html5Mode(true);
     })
 
     .constant('API_URL', 'http://angular-node-auth-api.herokuapp.com/')

@@ -31,11 +31,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-node-auth/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3333335" vertical-offset="0" max-vertical-offset="1564">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state vertical-scroll-proportion="-5.6666665" vertical-offset="0" max-vertical-offset="1530">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
-                <marker date="1434208960484" expanded="true" signature="839:992" placeholder="..." />
-                <marker date="1434208960484" expanded="true" signature="932:960" placeholder="..." />
+                <marker date="1434209184308" expanded="true" signature="800:953" placeholder="..." />
+                <marker date="1434209184308" expanded="true" signature="893:921" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file leaf-file-name="app.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-node-auth/scripts/app.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.620438" vertical-offset="255" max-vertical-offset="1190">
-              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            <state vertical-scroll-proportion="0.2035928" vertical-offset="0" max-vertical-offset="1190">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -226,19 +226,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/angular-node-auth/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3333335" vertical-offset="0" max-vertical-offset="1564">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state vertical-scroll-proportion="-5.6666665" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
-            <marker date="1434208960484" expanded="true" signature="839:992" placeholder="..." />
-            <marker date="1434208960484" expanded="true" signature="932:960" placeholder="..." />
+            <marker date="1434209184308" expanded="true" signature="800:953" placeholder="..." />
+            <marker date="1434209184308" expanded="true" signature="893:921" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-node-auth/scripts/app.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.620438" vertical-offset="255" max-vertical-offset="1190">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.2035928" vertical-offset="0" max-vertical-offset="1190">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding />
         </state>
       </provider>
