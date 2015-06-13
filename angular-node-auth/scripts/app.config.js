@@ -37,7 +37,7 @@ angular.module('psJwtApp')
         $authProvider.google({
             clientId: '537402726188-cps7intsrkusstgudu3h7s7oflef7di5.apps.googleusercontent.com',
             url: API_URL + 'auth/google',
-            redirectUri: window.location.origin || window.location.protocol + '//' + window.location.host + '/angular-node-auth/'
+            redirectUri: 'http://iceless58.github.io/angular-node-auth/'
         });
 
         $authProvider.facebook({
