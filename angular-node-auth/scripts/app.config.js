@@ -1,5 +1,5 @@
 angular.module('psJwtApp')
-    .config(function($urlRouterProvider, $stateProvider, $httpProvider, $authProvider, API_URL) {
+    .config(function($urlRouterProvider, $stateProvider, $locationProvider, $httpProvider, $authProvider, API_URL) {
 
         $urlRouterProvider.otherwise('/');
 
@@ -47,6 +47,8 @@ angular.module('psJwtApp')
         $authProvider.signupUrl = API_URL + 'auth/register';
 
         $httpProvider.interceptors.push('authInterceptor');
+
+        $locationProvider.html5Mode(true);
     })
 
     .constant('API_URL', 'http://angular-node-auth-api.herokuapp.com/')
