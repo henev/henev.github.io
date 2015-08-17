@@ -7,9 +7,9 @@ Contents
 -----------------
 
 * **Canvas snake** - A simple snake game made with canvas and pure javascript
-  * [Demo page](http://iceless58.github.io/canvas-snake/)
-  * [Github repository](https://github.com/iceless58/canvas-snake)
+  * [Demo page](http://henev.github.io/canvas-snake/)
+  * [Github repository](https://github.com/henev/canvas-snake)
 
 * **Canvas tron** - A simple tron light cycles game made with canvas and pure javascript
-  * [Demo page](http://iceless58.github.io/canvas-tron/)
-  * [Github repository](https://github.com/iceless58/canvas-tron)
+  * [Demo page](http://henev.github.io/canvas-tron/)
+  * [Github repository](https://github.com/henev/canvas-tron)
